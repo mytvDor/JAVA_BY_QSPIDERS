@@ -1,0 +1,38 @@
+public class AdditionOprExample {
+    public static void main(String[] args) {
+        // byte + byte
+        byte byte1 = 10, byte2 = 10;
+        int byteSum = byte1 + byte2; // promoted to int
+        System.out.println("byte + byte: " + byteSum); // Expected: 20
+
+        // short + short
+        short short1 = 200, short2 = 900;
+        int shortSum = short1 + short2; // promoted to int
+        System.out.println("short + short: " + shortSum); // Expected: 1100
+
+        // int + int
+        int int1 = 50, int2 = 30;
+        int intSum = int1 + int2;
+        System.out.println("int + int: " + intSum); // Expected: 80
+
+        // long + long
+        long long1 = 3L, long2 = 7L;
+        long longSum = long1 + long2;
+        System.out.println("long + long: " + longSum); // Expected: 10
+
+        // float + float
+        float float1 = 1.5f, float2 = 2.5f;
+        float floatSum = float1 + float2;
+        System.out.println("float + float: " + floatSum); // Expected: 4.0
+
+        // double + double
+        double double1 = 2.0, double2 = 3.0;
+        double doubleSum = double1 + double2;
+        System.out.println("double + double: " + doubleSum); // Expected: 5.0
+
+        // char + char
+        char char1 = 'A', char2 = 'B';
+        int charSum = char1 + char2;
+        System.out.println("char + char: " + charSum); // Expected: 131
+    }
+}
